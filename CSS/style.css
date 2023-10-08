@@ -56,10 +56,11 @@
 
 /* Header */
 header .topbar{
-    background-color: #daa520;
+    background-color:  #add8e6;
     padding: 15px;
 }
 header .top-menu {
+    background-color: #daa520;
     display: flex;
     align-items: center;
 }
@@ -76,6 +77,9 @@ header .top-menu .header-login {
 header .top-menu .header-link {
     width: 60%;
     text-align: center;
+}
+header .top-menu .header-login {
+    text-align: right;
 }
 header .jumbotron {
     background-color: #00008b;
